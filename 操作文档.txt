@@ -1,0 +1,8 @@
+第一步：下载ideaIU-2018.2.5，安装idea，安装后不启动
+第二步：将JetbrainsCrack-2.6.2.jar 放入  IntelliJ IDEA 2018.2.5\bin下
+第三步：编辑idea64.exe.vmoptions 和 idea.exe.vmoptions  
+保存如下内容
+-XX:-OmitStackTraceInFastThrow
+-javaagent:E:\JetBrains\IntelliJ IDEA 2018.2.5\bin\JetbrainsCrack-release-enc.jar（你JetbrainsCrack-2.6.2.jar所在的全路径）
+
+第四步：打开idea，选中Activation code 在框内随便输入内容，如果为绿色字体就表示破解成功
